@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Monetus</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</head>
+
+<body class="jumbotrom text-center">
+    <div>
+        <h1>Teste Monetus</h1>
+    </div>
+
+    <div>
+
+        <!--  <input id="imp" type="text" size="50" placeholder="sigla"> -->
+
+        <h3>Enter the acronym of the company to consult the value of the last quotation:</h3>
+
+        <form method="POST" name="dados" onsubmit="return processar('mytable')">
+            <input id="imp" type="text" size="20" placeholder="sigla">
+            <!-- <button type="button" class="btn btn-primary btn-md" onclick="mudar()">Pesquisar</button> -->
+            <input class="btn btn-info" name="enviar" type="submit" value="Pesquisar">
+        </form>
+
+
+
+
+
+        <table class="table table-striped" id="mytable">
+            <thead class="thred-dark">
+                <tr>
+                    <th>Symple</th>
+                    <th>Name</th>
+                    <th>Last Price</th>
+                    <th>Sector</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </div>
+
+</body>
+<footer>
+    <p>Posted by: Rafael Tadeu</p>
+    <p>Contact information: <a href="faeltadeu@hotmail.com">
+            faeltadeu@hotmail.com</a>.</p>
+</footer>
+
+</html>
